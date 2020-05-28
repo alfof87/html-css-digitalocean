@@ -10,13 +10,19 @@
 }
 /*HEADER*/
 /*1° RIGA*/
+
 .navbar-header img{
-  width: 200px;
-  margin-top: -10px;
-  margin-right: 150px;
+  width: 40%;
+}
+.navbar-nav{
+  margin-left: -40px;
 }
 .btn-default{
   margin-top: 10px;
+}
+@media all and (min-width: 768px)/*NOTA PER PROBLEMA VIEWPORT*/
+and (max-width: 992px) {
+
 }
 /*MAIN*/
 /*2° RIGA*/
@@ -27,19 +33,25 @@
 }
 .jumbotron p{
   font-size: 15px;
-  text-align: center;
 }
+
 .jumbotron form{
   background-color: white;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.jumbotron h2{
-  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: inline-block;
 }
 #text-black{
   color: black;
+  text-align: center;
 }
 #text-blue{
   color: blue;
+  text-align: center;
+}
+.btn-account{
+  background-color: #6495ED;
+  color: white;
+  width: 350px;
+  margin: 0 auto;
 }
