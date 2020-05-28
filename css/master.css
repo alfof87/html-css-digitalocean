@@ -4,3 +4,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar{
+  background-color: white;
+  border: none;
+}
+/*HEADER*/
+header{
+  height: 100px;
+}
+.navbar-header img{
+  width: 200px;
+  margin-top: -10px;
+  margin-right: 150px;
+}
+.btn-default{
+  margin-top: 10px;
+}
