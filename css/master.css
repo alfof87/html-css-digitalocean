@@ -9,9 +9,7 @@
   border: none;
 }
 /*HEADER*/
-header{
-  height: 100px;
-}
+/*1° RIGA*/
 .navbar-header img{
   width: 200px;
   margin-top: -10px;
@@ -19,4 +17,29 @@ header{
 }
 .btn-default{
   margin-top: 10px;
+}
+/*MAIN*/
+/*2° RIGA*/
+.jumbotron{
+  background-image: url(../img/jumbo.svg);
+  color: white;
+  background-size: cover;
+}
+.jumbotron p{
+  font-size: 15px;
+  text-align: center;
+}
+.jumbotron form{
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.jumbotron h2{
+  text-align: center;
+}
+#text-black{
+  color: black;
+}
+#text-blue{
+  color: blue;
 }
