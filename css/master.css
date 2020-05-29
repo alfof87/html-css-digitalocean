@@ -48,6 +48,7 @@ and (max-width: 1300px) {
   background-image: url(../img/jumbo.svg);
   color: white;
   background-size: cover;
+  margin-bottom: 0;
 }
 .jumbotron p{
   font-size: 20px;
@@ -98,7 +99,15 @@ and (max-width: 1300px) {
   padding-top: 5px;
 }
 /*3° RIGA*/
-div img{
+.row-three div{
   display: inline-block;
   text-align: center;
+}
+.innovative p{
+  text-align: center;
+  color: #A9A9A9;
+}
+.bkg{
+  background-color: #f3f5f9;
+  height: 100%;
 }
