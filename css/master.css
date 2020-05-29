@@ -10,7 +10,6 @@
 }
 /*HEADER*/
 /*1° RIGA*/
-
 .navbar-header img{
   width: 40%;
 }
@@ -20,8 +19,11 @@
 .btn-default{
   margin-top: 10px;
 }
-@media all and (min-width: 768px)/*NOTA PER PROBLEMA VIEWPORT*/
+@media all and (min-width: 0px)/*NOTA PER PROBLEMA VIEWPORT*/
 and (max-width: 992px) {
+  .navbar-nav{
+    display: none;
+  }
 
 }
 
@@ -57,7 +59,7 @@ and (max-width: 1300px) {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 15px;
-  height: 400px;
+  height: 430px;
   border-radius: 5px;
 }
 .float{
@@ -75,21 +77,28 @@ and (max-width: 1300px) {
   background-color: #6495ED;
   color: white;
   width: 100%;
-  margin-bottom: 15px;
 }
 .btn-google{
   background-color: white;
   width: 100%;
   border: none;
+  padding-bottom: 10px;
+
 }
 .google-border{
   height: 30px;
   border: 1px solid #DCDCDC;
   border-radius: 5px;
   color: black;
+  margin-top: 10px;
 }
 .google-border img{
   width: 18px;
   float: left;
   padding-top: 5px;
+}
+/*3° RIGA*/
+div img{
+  display: inline-block;
+  text-align: center;
 }
