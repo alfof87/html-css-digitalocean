@@ -111,3 +111,14 @@ and (max-width: 1300px) {
   background-color: #f3f5f9;
   height: 100%;
 }
+.bkg div p{
+  text-align: center;
+}
+/*4° RIGA*/
+.title-l4{
+  text-align: center;
+}
+#text-grey{
+  text-align: center;
+  color: grey;
+}
