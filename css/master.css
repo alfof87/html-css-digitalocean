@@ -138,3 +138,10 @@ and (max-width: 991px) {
    float: right;
  }
 }
+/*5° RIGA*/
+.section-5{
+  background-color: #f3f5f9;
+}
+.section-5 img{
+  width: 400px;
+}
