@@ -118,7 +118,23 @@ and (max-width: 1300px) {
 .title-l4{
   text-align: center;
 }
-#text-grey{
+#text-pargrey{
   text-align: center;
   color: grey;
+}
+.list{
+  border-left: 1px solid grey;
+
+}
+.text-grey{
+  color: grey;
+}
+@media screen and (min-width: 768px)/*MEDIA PER ALLINEAMENTO CONTENUTI IN COL-MD*/
+and (max-width: 991px) {
+.allineamento-md{
+  width: 33%;
+ }
+ .float-right{
+   float: right;
+ }
 }
