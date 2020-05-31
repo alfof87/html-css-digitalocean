@@ -53,6 +53,7 @@ and (max-width: 1300px) {
 .jumbotron p{
   font-size: 20px;
   padding-top: 15px;
+  color: #A9A9A9;
 }
 
 .jumbotron form{
@@ -78,6 +79,7 @@ and (max-width: 1300px) {
   background-color: #6495ED;
   color: white;
   width: 100%;
+  margin-bottom: 15px;
 }
 .btn-google{
   background-color: white;
@@ -169,12 +171,12 @@ and (max-width: 1300px) {
 .section-7 p{
   margin-left: 70px;
   margin-right: 100px;
-  margin-top: 10px;
-  text-align: center;
+  color: #A9A9A9;
 }
 .section-7 ul{
   list-style-type: none;
   text-align: center;
+  margin-top: 15px;
 }
 .section-7 span, p{
   color: white;
@@ -184,22 +186,63 @@ and (max-width: 1300px) {
 }
 .section-7 li{
   border-bottom: 1px solid white;
+  float: left;
+  width: 443px;
+}
+.test-speed{
+  float: right;
 }
 /*8° RIGA*/
 .section-8 img{
-  width: 600px;
+  width: 70%;
 }
 .section-8 h3{
   text-align: center;
 }
+
 /*9° RIGA*/
 .section-9{
   background-color: #0000FF;
 }
 .section-9 h3{
   color: white;
-  text-align: center;
 }
 .section-9 button{
-  text-align: center;
+  border-radius: 5px;
+  color: blue;
+  border: none;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #4169E1;
+}
+/*10° RIGA*/
+.section-10{
+  background-color: #191970;
+  height: 100%;
+}
+.section-10 img{
+  width: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section-10 span{
+  font-size: 10px;
+  color: #696969;
+  display: block;
+}
+.section-10 p{
+  display: block;
+}
+.section-10 h4{
+  color: white;
+}
+.section-10 ul li, p{
+  list-style-type: none;
+  color: grey;
+}
+.section-10 i{
+  padding-right: 10px;
 }
